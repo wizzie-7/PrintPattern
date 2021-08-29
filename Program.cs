@@ -29,7 +29,10 @@ namespace PrintPattern
                     Console.Write(k);
                     
                 }
-               
+                for (int m = i - 1; m >= 1; m--)
+                {
+                    Console.Write(m);
+                }
                 //for (int r = i-1; r >= 1;r--)
                 //{
                 //    Console.Write(" ");
