@@ -24,25 +24,35 @@ namespace PrintPattern
                 {
                     Console.Write(" ");
                 }
-                for(int k = 1; k <= i; k++)
+                for (int k = 1; k <= i; k++)
                 {
                     Console.Write(k);
-                    
+
                 }
                 for (int m = i - 1; m >= 1; m--)
                 {
                     Console.Write(m);
                 }
-                //for (int r = i-1; r >= 1;r--)
-                //{
-                //    Console.Write(" ");
+                
 
-                //}
-                //for (int c=1;c<=i-2;c++)
-                //{
-                //    Console.Write(c);
-                //}
-
+                Console.WriteLine();
+            }
+            for (int i = n-1; i >= 1; i--)
+            {
+                
+                for (int k = n-i; k >= 1; k--)
+                {
+                    Console.Write(" ");
+                }
+                
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write(j);
+                }
+                for (int m = i-1; m >=1; m--)
+                {
+                    Console.Write(m);
+                }
                 Console.WriteLine();
             }
         }
